@@ -5,6 +5,7 @@
 52 planes, 4 bases, 445 months
 
 ### Data Example
+```
 Tail Number	Owning Base	  Model	Scheduled Start Date	Depot Length (d)	Actual Start	Forecasted Finish
 1	            D	           C-X	      9/8/1998	            295	          7/7/1998	      1/1/2000
 2	            W	           C-X	      11/7/1998	            295	          10/27/1998	    2/1/2000
@@ -14,20 +15,25 @@ Tail Number	Owning Base	  Model	Scheduled Start Date	Depot Length (d)	Actual Sta
 6	            D	           C-X	      7/5/1999	            295	          8/16/1999	      6/6/2000
 7	            T	           C-X	      9/3/1999	            295	          6/12/1999	      5/3/2000
 8	            D	           C-X	      11/2/1999	            295	          10/26/1999	    8/16/2000
+```
 
 #### Minimum Required at each base for each month
+```
 Base	Min Req
 1	      6
 2	      15
 3	      6
 4	      16
+```
 
 #### Minimum Owned for each base (includes depot data)
+```
 Base	Min Owned
 1	      6
 2	      14
 3	      6
 4	      15
+```
 
 ## Goal
 The goal of this optimization is to meet the minimum required at each base for every month (445) taking into account the planes that are
