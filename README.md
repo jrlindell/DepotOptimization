@@ -42,3 +42,4 @@ planes than required) will send a plane to that base. We are taking that into ac
 from one base to another; minimize the unnecessary amount of flights per month
 
 ## Output
+The output is when planes move from one base to another, including the depot. This optimization was taken to a C5 conference and saved $1.9B in maintenance realignment over 30 years, and $366M in flight hours for the C5. 
